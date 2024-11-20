@@ -1,6 +1,6 @@
 "use client";
 
-import { Download} from "@mui/icons-material";
+import { Download } from "@mui/icons-material";
 import {
   Container,
   Typography,
@@ -274,7 +274,8 @@ export default function Page() {
               <Image
                 src="/images/linkedin.png"
                 alt="LinkedIn"
-                style={{ width: "40px", height: "40px" }}
+                width={40}
+                height={40}
               />
             </Box>
           </Link>
@@ -288,7 +289,8 @@ export default function Page() {
               <Image
                 src="/images/github.png"
                 alt="GitHub"
-                style={{ width: "40px", height: "40px" }}
+                width={40}
+                height={40}
               />
             </Box>
           </Link>
@@ -302,7 +304,8 @@ export default function Page() {
               <Image
                 src="/images/instagram.png"
                 alt="Instagram"
-                style={{ width: "40px", height: "40px" }}
+                width={40}
+                height={40}
               />
             </Box>
           </Link>
@@ -316,7 +319,8 @@ export default function Page() {
               <Image
                 src="/images/platzi.png"
                 alt="Portfolio"
-                style={{ width: "40px", height: "40px" }}
+                width={40}
+                height={40}
               />
             </Box>
           </Link>
@@ -457,21 +461,27 @@ export default function Page() {
                     >
                       {project.title}
                     </Typography>
-                    <Grid container spacing={2} sx={{ mt: 1 }}>
-                      <Grid item xs={6}>
+                    <Grid
+                      container
+                      spacing={2}
+                      sx={{ mt: 1 }}
+                      direction={{ xs: "column", sm: "row" }}
+                    >
+                      <Grid item xs={12} sm={6}>
                         <CardMedia
                           component="img"
-                          height="150"
+                          height="100%"
                           image={project.imageUrl}
                           alt="Project Image"
                         />
                       </Grid>
-                      <Grid item xs={6}>
+                      <Grid item xs={12} sm={6}>
                         <Typography variant="body2" sx={{ color: "#8892B0" }}>
                           {project.description}
                         </Typography>
                       </Grid>
                     </Grid>
+
                     <Box sx={{ mt: 2, display: "flex", flexWrap: "wrap" }}>
                       {project.tags.map((tag, idx) => (
                         <Box
