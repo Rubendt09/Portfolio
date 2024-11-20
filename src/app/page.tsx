@@ -1,6 +1,6 @@
 "use client";
 
-import { Download, Margin } from "@mui/icons-material";
+import { Download} from "@mui/icons-material";
 import {
   Container,
   Typography,
@@ -13,6 +13,7 @@ import {
   CardMedia,
 } from "@mui/material";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Page() {
   const experiences = [
@@ -270,7 +271,7 @@ export default function Page() {
             rel="noopener noreferrer"
           >
             <Box sx={{ mx: 2 }}>
-              <img
+              <Image
                 src="/images/linkedin.png"
                 alt="LinkedIn"
                 style={{ width: "40px", height: "40px" }}
@@ -284,7 +285,7 @@ export default function Page() {
             rel="noopener noreferrer"
           >
             <Box sx={{ mx: 2 }}>
-              <img
+              <Image
                 src="/images/github.png"
                 alt="GitHub"
                 style={{ width: "40px", height: "40px" }}
@@ -298,7 +299,7 @@ export default function Page() {
             rel="noopener noreferrer"
           >
             <Box sx={{ mx: 2 }}>
-              <img
+              <Image
                 src="/images/instagram.png"
                 alt="Instagram"
                 style={{ width: "40px", height: "40px" }}
@@ -312,7 +313,7 @@ export default function Page() {
             rel="noopener noreferrer"
           >
             <Box sx={{ mx: 2 }}>
-              <img
+              <Image
                 src="/images/platzi.png"
                 alt="Portfolio"
                 style={{ width: "40px", height: "40px" }}
