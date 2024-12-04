@@ -200,7 +200,7 @@ export default function Page() {
                   }}
                 >
                   <Link
-                    href="https://drive.usercontent.google.com/download?id=1yGilFfLEMXbcX-wnD-DbxNzzCTyl083U&export=download&authuser=0&confirm=t&uuid=4dd133d8-ca1d-4e43-ae7e-68b0f4beed56&at=AENtkXYs0vQzPGcJI5ANDGz3kaAU:1732079690752"
+                    href="https://drive.usercontent.google.com/download?id=1yGilFfLEMXbcX-wnD-DbxNzzCTyl083U&export=download"
                     download
                     style={{
                       textDecoration: "none",
