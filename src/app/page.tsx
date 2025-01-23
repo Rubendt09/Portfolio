@@ -39,12 +39,15 @@ export default function Page() {
       period: "Junio 2024 - Septiembre 2024",
     },
     {
-      title: "Full Stack Developer - Xinnux",
+      title: "Java Developer - Xinnux",
       description: [
-        "Colaboré en el desarrollo del ERP interno de MarcoMkt desde su concepción.",
-        "Analicé requerimientos funcionales de la aplicaion.",
-        "Desarrollé un calendario para citas, notificaciones, ventas, productos y gestión de clientes.",
-        "Participé en el despliegue de la aplicación.",
+        "Desarrollo de microservicios con Java.",
+        "Integración de microservicios de agendamiento de citas, ventas y datos estadísticos.",
+        "Implementación de la validación JWT.",
+        "Comunicar el backend con la base de datos MongoDB.",
+        "Planteamiento y diseño de la arquitectura de la empresa.",
+        "Implementación On-premise en el servidor interno de la empresa.",
+        "Mantener y actualizar constantemente los diferentes microservicios de la empresa."
       ],
       tags: ["Next.js", "Nest.js", "MongoDB", "AWS", "Vercel"],
       period: "Septiembre 2023 - Mayo 2024",
@@ -52,9 +55,11 @@ export default function Page() {
     {
       title: "Backend Developer - Marco Marketing | Freelancer",
       description: [
-        "Desarrollé el ERP interno de MarcoMkt desde su concepción.",
-        "Analicé requerimientos funcionales y colaboré en el diseño de interfaces de usuario.",
-        "Diseñé y desarrollé un calendario para citas, notificaciones, ventas, productos y gestión de clientes.",
+        "Diseño y desarrollo de microservicios con Java.",
+        "Autenticación Auth2.0",
+        "Consumo e integración de servicios REST, externos e internos.",
+        "Implementación en servicios de Azure, Web Service.",
+        "Desarrollo de Swagger y documentación de Api’s."
       ],
       tags: ["Java", "Spring", "MySQL", "MongoDB", "Azure"],
       period: "Mayo 2023 - Agosto 2023",
@@ -200,7 +205,7 @@ export default function Page() {
                   }}
                 >
                   <Link
-                    href="https://drive.usercontent.google.com/download?id=1yGilFfLEMXbcX-wnD-DbxNzzCTyl083U&export=download&authuser=0&confirm=t&uuid=39f4a08f-4527-48a1-adec-c5ba504cc6c2&at=AIrpjvOjb96z0QBS7M_Ll9y2uYTD:1737236914331"
+                    href="https://drive.usercontent.google.com/download?id=1l9NIBrS5_DlFA5Oaegi6usUPqliFXLGI&export=download&authuser=0&confirm=t&uuid=f4eb0a28-59da-4176-965a-606600b6e419&at=AIrpjvMvcNFJEzaRFmW2Fveibfe5:1737641525390"
                     download
                     style={{
                       textDecoration: "none",
