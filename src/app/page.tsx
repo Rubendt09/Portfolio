@@ -49,8 +49,8 @@ export default function Page() {
         "Implementación On-premise en el servidor interno de la empresa.",
         "Mantener y actualizar constantemente los diferentes microservicios de la empresa."
       ],
-      tags: ["Next.js", "Nest.js", "MongoDB", "AWS", "Vercel"],
-      period: "Septiembre 2023 - Mayo 2024",
+      tags: ["Spring Boot", "Java 17", "JPA", "MongoDB", "Postman", "API Rest", "API Gateway", "Spring Security", "Docker", "Jira", "Junit", "Mockito", "Swagger"],
+      period: "Septiembre 2023 - Marzo 2024",
     },
     {
       title: "Backend Developer - Marco Marketing | Freelancer",
@@ -61,8 +61,8 @@ export default function Page() {
         "Implementación en servicios de Azure, Web Service.",
         "Desarrollo de Swagger y documentación de Api’s."
       ],
-      tags: ["Java", "Spring", "MySQL", "MongoDB", "Azure"],
-      period: "Mayo 2023 - Agosto 2023",
+      tags: ["Docker", "Java 8", "Quarkus", "Spring Boot", "Azure DevOps", "Rest", "Postman", "Junit", "Mockito", "OpenShift", "Auth 2.0"],
+      period: "Marzo 2023 - Agosto 2023",
     },
     {
       title: "Java Developer - Seven Seeds Coffee ",
