@@ -195,7 +195,7 @@ export default function Page() {
                     textAlign: { xs: "center", sm: "left" },
                   }}
                 >
-                  Creo experiencias digitales centradas en la experiencia del
+                  Creo soluciones digitales centradas en la experiencia del
                   usuario
                 </Typography>
                 <Box
